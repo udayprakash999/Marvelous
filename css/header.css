@@ -1,0 +1,32 @@
+header{
+    background:var(--background-color);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 1em;
+    border-bottom: 1px solid var(--h--color);
+
+}
+.logo h1{
+    font-family: "Fugaz One", sans-serif;
+    color: var(--h--color);
+}
+header ul{
+    display: flex;
+    gap: 2rem;
+}
+header ul li{
+    list-style: none;
+}
+header ul li a{
+    text-decoration: none;
+    font-family: "Amarante", serif; 
+    font-size: 1.2em;
+    font-weight: 600;
+    color: var(--h--color);
+}
+header ul li a:hover{
+    color:#ededeab8 ;
+}
