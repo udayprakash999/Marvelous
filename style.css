@@ -152,19 +152,19 @@ header{
 }
 
 .about ul > li:first-child::before {
-  background-image: url(assets/G1.jpg);
+  background-image: url(assets/g1.jpg);
 }
 .about ul > li:nth-child(2)::before {
-  background-image: url(assets/G2.jpg);
+  background-image: url(assets/g2.jpg);
 }
 .about ul > li:nth-child(3)::before {
-  background-image: url(assets/G3.jpg);
+  background-image: url(assets/g3.jpg);
 }
 .about ul > li:nth-child(4)::before {
-  background-image: url(assets/G4.jpg);
+  background-image: url(assets/g4.jpg);
 }
 .about ul > li:nth-child(5)::before {
-  background-image: url(assets/G5.jpg);
+  background-image: url(assets/g5.jpg);
 }
 .about:has(ul > li:hover)::before {
   filter: grayscale(100%);
